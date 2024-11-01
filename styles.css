@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #e2e2e2 0%, #ffffff 100%);
+}
+
+.container {
+    text-align: center; /* Centrer le texte et l'image */
+}
+
+.profile-image {
+    width: 100px; /* Largeur de l'image */
+    height: 100px; /* Hauteur de l'image */
+    border-radius: 50%; /* Arrondir l'image pour qu'elle soit circulaire */
+    margin-bottom: 15px; /* Espace entre l'image et le nom */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Ombre pour l'image */
+}
+
+.name {
+
+    color: #333; /* Couleur du texte */
+}
+
+.social-buttons {
+    display: flex;
+    flex-direction: column; /* Alignement en colonne */
+    gap: 15px; /* Espace entre les boutons */
+}
+
+.social-button {
+    display: flex;
+    align-items: center;
+    padding: 15px 65px; /* Plus d'espace autour du texte */
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.social-button i {
+    margin-right: 10px; /* Espace entre l'icône et le texte */
+    font-size: 20px; /* Taille de l'icône */
+}
+
+.facebook {
+    background: linear-gradient(135deg, #3b5998, #8b9dc3);
+}
+
+.instagram {
+    background: linear-gradient(135deg, #e1306c, #fdc468);
+}
+
+.snapchat {
+    background: linear-gradient(135deg, #fffc00, #f4d03f);
+    color: #000;
+}
+
+.tiktok {
+    background: linear-gradient(135deg, #000000, #000000);
+}
+
+.telegram {
+    background: linear-gradient(135deg, #0088cc, #00bfff);
+}
+
+.email {
+    background: linear-gradient(135deg, #d14836, #e67e22);
+}
+
+.social-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
